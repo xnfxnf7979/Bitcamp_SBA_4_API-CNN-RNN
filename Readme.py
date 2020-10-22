@@ -19,3 +19,7 @@ wsgi 방식으로 전환
    - package : __init__.py (O)
    - directory : __init__.py (X)
 '''
+
+'''
+[참고] rnn 폴더의 data 에는 movie_review.csv 파일을 넣는다
+'''
