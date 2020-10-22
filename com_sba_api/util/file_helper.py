@@ -35,7 +35,7 @@ class FileReader:
         return pd.read_excel(self.new_file(), header = header, usecols = usecols)
 
     def create_gmaps(self):
-        return googlemaps.Client(key='AIzaSyC_8aM0kHTficwEYFd6PWGo0_vgk3plFMk')
+        return googlemaps.Client(key='')
 
     def json_load(self):
         return json.load(open(self.new_file(),encoding='utf-8'))
